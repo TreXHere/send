@@ -28,5 +28,4 @@ def download_song(_, update):
     # Send the audio file to the channel
     app.send_audio(chat_id=CHANNEL_ID, audio=audio_path)
 
-if __name__ == "__main__":
-    app.run()
+  app.run()
